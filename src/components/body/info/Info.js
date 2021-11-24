@@ -6,7 +6,7 @@ function Info() {
         <div className='info'>
             <div className='info-top'>
                 <div className='info-info'>
-                    Hello ! I'm Phirachat <br/>
+                    Hello 👋🏽  I'm  Phirachat Kochanil <br/>
                     I'm a Computer Engineering Student 
                 </div>
                 <div className='info-photo'>

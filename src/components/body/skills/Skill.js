@@ -9,7 +9,7 @@ function Skill() {
     return (
         <div className='skills'>
             <Separator/>
-            <label className='section-title'>Skills</label>
+            <label className='section-title'>Area of expertises</label>
             <div className='skills-container'>
                 {data.map((item)=>{
                     return (

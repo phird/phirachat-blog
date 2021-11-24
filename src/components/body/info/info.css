@@ -2,6 +2,9 @@
     padding-bottom: 48px;
 
 }
+.myname{
+    font-size: 28;
+}
 
 .info-top{
     display: flex;

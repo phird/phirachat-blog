@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className='footer'>
-            Made by Phirachat 🔥
+            Powered by Phirachat 🔥
         </div>
     )
 }
