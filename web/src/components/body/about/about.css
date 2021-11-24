@@ -1,0 +1,20 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact-info{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.contact-list img{
+    padding-top: 10px;
+    width: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-list{
+    align-items: center;
+}

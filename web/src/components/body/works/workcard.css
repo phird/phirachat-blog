@@ -1,0 +1,83 @@
+.work-card{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px; /*  space between component */
+    padding: 8px 0px;
+}
+
+.work-photo{
+    width: 40%;
+}
+
+.work-info{
+    margin-right: 24px;
+}
+
+.work-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.work-tags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.tag{
+    padding: 4px 8px;
+    background-color: lightblue;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
+
+.work-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.work-links{
+    margin-top: 6px;
+    display: flex;
+}
+
+.link-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.link-button i{
+    display: flex;
+    align-items: center;
+    mask-repeat: 4px;
+}
+
+
+@media only screen and (max-width: 720px){
+    .work-photo{
+        width: 70%;
+    }
+
+    .work-card{
+        flex-direction: column-reverse;
+    }
+
+    .work-info{
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .work-tags{
+        max-width: 100%;
+    }
+}
