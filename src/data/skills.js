@@ -9,6 +9,9 @@ export const SkillsData=[
             {
                 name:"C++",
                 icon:<img src="https://img.icons8.com/color/50/000000/c-plus-plus-logo.png"/>,   
+            },{
+                name:"Python",
+                icon:<i class="devicon-python-plain colored"></i>,   
             },
             {
                 name:"HTML",
@@ -19,10 +22,6 @@ export const SkillsData=[
     {
         type:"Beginner",
         list:[
-            {
-                name:"Python",
-                icon:<i class="devicon-python-plain colored"></i>,   
-            },
             {
                 name:"SQL",
                 icon:<i class="devicon-mysql-plain-wordmark colored"></i>,   
